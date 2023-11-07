@@ -1,0 +1,10 @@
+Bundle-Name: auth-api
+Bundle-SymbolicName: com.had.testVersionControll.auth.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.had.testVersionControll.auth.exception,\
+	com.had.testVersionControll.auth.model,\
+	com.had.testVersionControll.auth.service,\
+	com.had.testVersionControll.auth.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../auth-service/service.xml
